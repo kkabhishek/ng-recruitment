@@ -30,7 +30,8 @@
               "src/styles.scss"
             ],
             "scripts": [],
-            "es5BrowserSupport": true
+            "es5BrowserSupport": true,
+            "heroku-postbuild": "ng build --prod"
           },
           "configurations": {
             "production": {
